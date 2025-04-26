@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+@theme{
+  --color-theme: #6366F1; /* Electric Indigo (Main Action Color) */
+  --color-theme2: #06B6D4; /* Neon Cyan (Highlights, Hover, Links) */
+  --color-theme3: #0F172A; /* Jet Black (Text, Nav Backgrounds) */
+  --color-darktheme: #020617; /* Darkest Background */
+  
+
+  
+}

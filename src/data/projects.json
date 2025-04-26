@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "title": "Database Project",
+      "description": "I designed and developed a robust database management system using SQL to efficiently store, organize, and retrieve data.",
+      "image": "",
+      "technologies": ["MySql"],
+      
+        "category": "database",
+        "github": "https://github.com/yourusername/sql-database-project",
+        "demo": "",
+        "year": "2025"
+      }
+      
+    
+  ]
+
+ 
