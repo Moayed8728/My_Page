@@ -1,18 +1,214 @@
 [
-    {
-      "id": 1,
-      "title": "Database Project",
-      "description": "I designed and developed a robust database management system using SQL to efficiently store, organize, and retrieve data.",
-      "image": "",
-      "technologies": ["MySql"],
-      
-        "category": "database",
-        "github": "https://github.com/yourusername/sql-database-project",
-        "demo": "",
-        "year": "2025"
+  {
+    "id": 1,
+    "title": "SchoolSense",
+    "subtitle": "AI-Powered School Discovery Platform",
+    "tagline": "Semantic school search and AI recommendations for parents.",
+    "description": "A production-style school discovery platform designed around semantic retrieval, AI recommendations, role-based workflows, and moderation.",
+    "image": "",
+    "logoIcon": "tabler:school",
+    "category": "Search Platform",
+    "year": "2026",
+    "systemTags": ["AI System", "Vector Search", "Backend Platform"],
+    "technologies": ["Laravel 12", "PostgreSQL", "pgvector", "Gemini API", "Docker", "Tailwind CSS"],
+    "features": [
+      "Semantic and hybrid school search",
+      "AI-generated recommendations",
+      "Embedding-based retrieval system",
+      "Role-based platform for parents, school managers, and admins",
+      "Moderation and verification workflows",
+      "Favorites and comparison systems"
+    ],
+    "concepts": ["Embeddings", "Semantic Search", "RAG Architecture", "Vector Databases", "Hybrid Retrieval Systems", "AI-Orchestrated Search"],
+    "behindSystem": {
+      "challenge": "Parents need to compare schools using messy real-world criteria, not only exact keyword matches.",
+      "architecture": "Laravel service layers separate search orchestration, school data, role workflows, and AI recommendation logic.",
+      "backendWorkflow": "School data is normalized, embedded, stored in PostgreSQL with pgvector, then retrieved through semantic and hybrid search paths.",
+      "aiDataFlow": "User intent is converted into search context, matched against embeddings, and passed into Gemini-powered recommendation flows."
+    },
+    "repositories": [
+      {
+        "label": "SchoolSense App",
+        "url": "https://github.com/Moayed8728/SchoolSense-App"
       }
-      
-    
-  ]
-
- 
+    ]
+  },
+  {
+    "id": 2,
+    "title": "TalentConnect",
+    "subtitle": "AI-Powered Recruitment Platform",
+    "tagline": "Job seeker app, backoffice, and shared backend package.",
+    "description": "A multi-repository recruitment system with a job seeker app, admin/backoffice workflows, shared migrations/models, Laravel Cloud resume storage, PDF-to-text extraction, and AI-assisted candidate analysis.",
+    "image": "",
+    "logoIcon": "tabler:users",
+    "category": "Recruitment Platform",
+    "year": "2025",
+    "systemTags": ["Backend System", "AI Workflow", "Multi-Repo Architecture"],
+    "technologies": ["Laravel", "PHP", "MariaDB", "Docker", "Gemini API", "Laravel Cloud", "PDF to Text"],
+    "features": [
+      "Job seeker application workflows",
+      "Backoffice/admin recruitment management",
+      "Shared migrations and models through Job-Shared",
+      "Resume upload and storage through Laravel Cloud",
+      "PDF-to-text extraction pipeline for resume analysis",
+      "AI-powered candidate analysis",
+      "Employer and applicant workflow separation"
+    ],
+    "concepts": ["AI Integration", "Shared Package Architecture", "Backend Workflows", "File Processing Pipelines", "Candidate Recommendation Logic"],
+    "behindSystem": {
+      "challenge": "Recruitment workflows need separation between applicant-facing features, backoffice operations, and shared domain data.",
+      "architecture": "The system is split into app, backoffice, and shared package repositories to keep reusable migrations/models separate.",
+      "backendWorkflow": "Applicants and employers move through separated workflows while shared models keep the domain consistent across apps.",
+      "aiDataFlow": "Resume PDFs are uploaded through the app, stored with Laravel Cloud, converted into text, then prepared for AI-assisted candidate analysis and recruiter decision support."
+    },
+    "repositories": [
+      {
+        "label": "Job Backoffice",
+        "url": "https://github.com/Moayed8728/Job-Backoffice"
+      },
+      {
+        "label": "Job Shared",
+        "url": "https://github.com/Moayed8728/Job-Shared"
+      },
+      {
+        "label": "TalentConnect App",
+        "url": "https://github.com/Moayed8728/TalentConnect-app"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Cinema Ticket Reservation",
+    "subtitle": "Reservation and booking system",
+    "tagline": "Cinema seat booking and ticket reservation workflow.",
+    "description": "A domain-focused reservation system for modeling booking flow, ticket state, and practical application behavior.",
+    "image": "",
+    "logoIcon": "tabler:ticket",
+    "category": "Reservation System",
+    "year": "2025",
+    "systemTags": ["Domain Modeling", "Booking Workflow"],
+    "technologies": ["Software Engineering", "Database Design", "Application Logic"],
+    "features": ["Ticket reservation workflow", "Cinema booking domain model", "Practical application structure"],
+    "concepts": ["Reservation Systems", "CRUD Workflows", "Data Modeling"],
+    "behindSystem": {
+      "challenge": "Reservation systems require clear handling of booking state and data consistency.",
+      "architecture": "The project models cinema booking entities and separates reservation behavior from data structure.",
+      "backendWorkflow": "Users move through selecting tickets, reserving seats or shows, and storing booking data.",
+      "aiDataFlow": "No AI flow; the focus is domain modeling and reservation logic."
+    },
+    "repositories": [
+      {
+        "label": "Source Code",
+        "url": "https://github.com/Moayed8728/Cinema-Ticket-Reservation-System"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Laravel Job Board",
+    "subtitle": "Job listing web application",
+    "tagline": "Job posting and browsing platform built with Laravel.",
+    "description": "A Laravel job board project for practicing route design, controllers, database-backed pages, and backend web application structure.",
+    "image": "",
+    "logoIcon": "tabler:briefcase",
+    "category": "Web Platform",
+    "year": "2025",
+    "systemTags": ["Laravel", "Backend Practice"],
+    "technologies": ["Laravel", "PHP", "Blade", "Database Design"],
+    "features": ["Job listing workflows", "Backend route and controller practice", "Database-driven web pages"],
+    "concepts": ["MVC Architecture", "CRUD Workflows", "Web Application Structure"],
+    "behindSystem": {
+      "challenge": "Job boards need clear listing, browsing, and data-driven page workflows.",
+      "architecture": "Laravel MVC patterns organize routes, controllers, views, and database-backed job data.",
+      "backendWorkflow": "Job data is stored, displayed, and routed through standard backend web workflows.",
+      "aiDataFlow": "No AI flow; this project focuses on Laravel fundamentals and backend structure."
+    },
+    "repositories": [
+      {
+        "label": "Source Code",
+        "url": "https://github.com/Moayed8728/laravel-job-board"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Banking System",
+    "subtitle": "Banking domain practice project",
+    "tagline": "Account and transaction logic for banking workflows.",
+    "description": "A banking system project for practicing transaction-oriented business logic, data integrity, and system modeling.",
+    "image": "",
+    "logoIcon": "tabler:building-bank",
+    "category": "Business System",
+    "year": "2025",
+    "systemTags": ["Business Logic", "Data Integrity"],
+    "technologies": ["Software Engineering", "SQL", "Application Logic"],
+    "features": ["Banking domain modeling", "Account-oriented workflows", "Transaction logic practice"],
+    "concepts": ["Business Logic", "Data Integrity", "System Modeling"],
+    "behindSystem": {
+      "challenge": "Banking workflows require careful thinking around accounts, transaction state, and integrity.",
+      "architecture": "The project models banking entities and keeps core transaction behavior explicit.",
+      "backendWorkflow": "Account operations and transaction-style actions are handled through structured application logic.",
+      "aiDataFlow": "No AI flow; the focus is reliable business logic."
+    },
+    "repositories": [
+      {
+        "label": "Source Code",
+        "url": "https://github.com/Moayed8728/Banking_System"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "WeatherNow",
+    "subtitle": "Weather application",
+    "tagline": "Simple weather experience with a clean interface.",
+    "description": "A weather application focused on frontend structure, external data display, responsive UI, and user-friendly interaction.",
+    "image": "",
+    "logoIcon": "tabler:cloud-sun",
+    "category": "Frontend App",
+    "year": "2025",
+    "systemTags": ["Frontend", "API Data"],
+    "technologies": ["JavaScript", "HTML", "CSS", "API Integration"],
+    "features": ["Weather information display", "Clean UI practice", "External data workflow practice"],
+    "concepts": ["Frontend Development", "API Consumption", "Responsive UI"],
+    "behindSystem": {
+      "challenge": "Weather apps need simple data presentation without overwhelming the user.",
+      "architecture": "A lightweight frontend structure separates UI display from external weather data handling.",
+      "backendWorkflow": "No backend workflow; the project practices external data consumption and frontend rendering.",
+      "aiDataFlow": "No AI flow; the focus is API-style data display."
+    },
+    "repositories": [
+      {
+        "label": "Source Code",
+        "url": "https://github.com/Moayed8728/WeatherNow"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "MySQL Practice",
+    "subtitle": "SQL and database practice",
+    "tagline": "Database queries, schema practice, and SQL fundamentals.",
+    "description": "A MySQL practice repository for strengthening query writing, relational thinking, schema design, and database fundamentals.",
+    "image": "",
+    "logoIcon": "tabler:database",
+    "category": "Database Practice",
+    "year": "2025",
+    "systemTags": ["SQL", "Database Design"],
+    "technologies": ["MySQL", "SQL", "Database Design"],
+    "features": ["SQL query practice", "Database schema exercises", "Relational database fundamentals"],
+    "concepts": ["SQL", "Relational Databases", "Data Modeling"],
+    "behindSystem": {
+      "challenge": "Strong backend systems depend on clear relational thinking and query fundamentals.",
+      "architecture": "Practice exercises focus on schema design, SQL statements, and relational data modeling.",
+      "backendWorkflow": "Queries and schema exercises support the data layer skills needed in backend applications.",
+      "aiDataFlow": "No AI flow; the focus is database fundamentals."
+    },
+    "repositories": [
+      {
+        "label": "Source Code",
+        "url": "https://github.com/Moayed8728/mysql_practice"
+      }
+    ]
+  }
+]
