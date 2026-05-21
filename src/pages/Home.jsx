@@ -603,6 +603,26 @@ const Home = () => {
                 </div>
               </div>
 
+              {selectedProject.liveLinks?.length > 0 && (
+                <div>
+                  <h4 className="text-sm font-bold uppercase tracking-widest text-white">Live Demo</h4>
+                  <div className="mt-3 flex flex-wrap gap-3">
+                    {selectedProject.liveLinks.map((liveLink) => (
+                      <a
+                        key={liveLink.url}
+                        href={liveLink.url}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="magic-button inline-flex items-center rounded-md bg-theme px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-theme2"
+                      >
+                        <Icon icon="tabler:external-link" width="16" height="16" className="mr-2" />
+                        {liveLink.label}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              )}
+
               {selectedProject.repositories?.length > 0 && (
                 <div>
                   <h4 className="text-sm font-bold uppercase tracking-widest text-white">Source Code</h4>

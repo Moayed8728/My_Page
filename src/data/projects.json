@@ -26,6 +26,12 @@
       "backendWorkflow": "School data is normalized, embedded, stored in PostgreSQL with pgvector, then retrieved through semantic and hybrid search paths.",
       "aiDataFlow": "User intent is converted into search context, matched against embeddings, and passed into Gemini-powered recommendation flows."
     },
+    "liveLinks": [
+      {
+        "label": "Live App",
+        "url": "https://schoolsense-na6r.onrender.com"
+      }
+    ],
     "repositories": [
       {
         "label": "SchoolSense App",
